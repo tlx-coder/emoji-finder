@@ -1,0 +1,13 @@
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: #FFE4C4;
+    padding-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 0 0 1cm 0;
+    border-color: white;
+    border-style: solid;
+
+}

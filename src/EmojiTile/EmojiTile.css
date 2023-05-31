@@ -1,0 +1,42 @@
+.tile {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 8px;
+    border-radius: 5px;
+    border-color: #C0C0C0;
+    background-color :rgb(241, 241, 241);
+    height: fit-content;
+    transition: all 0.1s ease-in-out;
+    min-width: 100px;
+    min-height: 85px;
+}
+
+.tile:hover {
+    transform: scale(1.5);
+    border-color: #808080; 
+}
+
+.symbol {
+    align-self: center;
+    font-size: 30px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.title {
+    align-self: center;
+    margin: 2px;
+}
+
+.title-heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.copy-title {
+    align-self: center;
+    margin: 2px;
+    display: none;
+    color: #A9A9A9;
+}
+

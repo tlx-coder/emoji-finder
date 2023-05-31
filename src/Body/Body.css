@@ -1,0 +1,6 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 1cm 1cm 1cm;
+}
